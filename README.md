@@ -48,9 +48,9 @@ First, clone the repo:
 
 Put your GitHub username in the [RailsConf tutorial chat room](http://railsconftutorials.com/chat) and I'll add you as a collaborator on the repo so that you can push to it.
 
-Next, pick a class or module to learn and make a spec for it (prefixing it with your name to avoid clashes):
+Next, pick a class or module to learn and make a spec for it (prefixing it with your username to avoid clashes):
 
-    cp spec/sample_spec.rb spec/<name>_<class or module>_spec.rb
+    cp spec/sample_spec.rb spec/<username>_<class or module>_spec.rb
 
 Follow the model from the sample spec to help you get started. 
 
