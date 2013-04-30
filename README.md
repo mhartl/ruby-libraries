@@ -29,3 +29,35 @@ Here are some important Ruby libraries for Rails (links are to the Ruby&nbsp;2.0
 * [Kernel](http://ruby-doc.org/core-2.0/Kernel.html)
 * [Enumerable](http://ruby-doc.org/core-2.0/Enumerable.html)
 * [Math](http://ruby-doc.org/core-2.0/Math.html)
+
+## Workshop
+
+The details of the workshop depend on your background.
+
+### Option 1: Use irb
+
+I suggest that beginning students pick a class or module to learn and then use irb to work through the documentation examples. Post questions to the [RailsConf tutorial chat room](http://railsconftutorials.com/chat).
+
+### Option 2: Use RSpec
+
+If you are comfortable with writing tests, I recommend that you clone the `ruby-libraries` Git repository and use the sample spec file to write documentation of your own.
+
+First, clone the repo:
+
+    git clone https://github.com/mhartl/ruby-libraries.git
+
+Put your GitHub username in the [RailsConf tutorial chat room](http://railsconftutorials.com/chat) and I'll add you as a collaborator on the repo so that you can push to it.
+
+Next, pick a class or module to learn and make a spec for it (prefixing it with your name to avoid clashes):
+
+    cp spec/sample_spec.rb spec/<name>_<class or module>_spec.rb
+
+Follow the model from the sample spec to help you get started. 
+
+When you have changes you want to share, add the file and push it up:
+
+    git add spec/
+    git commit -am "Add tests for <class or module>"
+    git push
+
+If you want, post a link to the commit in the [RailsConf tutorial chat room](http://railsconftutorials.com/chat) so that I can pull your changes and run the resulting tests.
