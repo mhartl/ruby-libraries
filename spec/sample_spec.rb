@@ -1,5 +1,8 @@
 require 'spec_helper'
 
+# This is a sample spec file, showing an initial effort to document a Ruby
+# class or module (in this case, the Array class) based on the documentation
+# at http://ruby-doc.org/.
 describe Array do
 
   describe '#new' do
