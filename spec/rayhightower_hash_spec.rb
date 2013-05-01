@@ -25,17 +25,6 @@ describe Hash do
 
     end
 
-    context "when called with an integer and a value" do
-      let(:hash) { Hash.new(3, 'foo') }
-
-      it "should have length equal to the first argument" do
-        expect(hash.length).to eq 3
-      end
-
-      it "should return an hash consisting of the given value" do
-        expect(hash).to eq ['foo', 'foo', 'foo']
-      end
-    end
   end
 
   describe "hashthing & other_hashthing" do
