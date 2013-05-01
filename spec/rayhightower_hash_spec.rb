@@ -9,12 +9,15 @@ describe Hash do
 
     context "when called with no arguments" do
       it "should return the empty hash" do
-        expect(Hash.new).to eq []
+        hash = Hash.new
+        expect(hash == {}).to eq true
       end
     end
 
     context "when called with an integer as an argument" do
-      let(:hash) { Hash.new(3) }
+      # let(:hash) { Hash.new(3) }
+      hash = Hash.new
+      hash = {"a" => "curly", "b" => "larry", "c" => "moe"}
 
       it "should have length equal to the argument" do
         expect(hash.length).to eq 3
