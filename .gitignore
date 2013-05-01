@@ -1,0 +1,4 @@
+# .gitignore so we don't clobber each other's stuff!!
+.ruby-version
+.ruby-gemset
+
