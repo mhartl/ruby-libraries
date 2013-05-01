@@ -23,9 +23,6 @@ describe Hash do
         expect(hash.length).to eq 3
       end
 
-      it "should return an hash with all nils" do
-        expect(hash).to eq [nil, nil, nil] 
-      end
     end
 
     context "when called with an integer and a value" do
